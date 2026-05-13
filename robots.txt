@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://impetus82.github.io/solidity-audit-quick-kit/sitemap.xml
+
