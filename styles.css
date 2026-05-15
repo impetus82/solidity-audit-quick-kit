@@ -151,6 +151,40 @@ article p,
   line-height: 1.55;
 }
 
+article h3 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.faq,
+.detail {
+  padding: 54px clamp(20px, 6vw, 88px);
+  border-bottom: 1px solid var(--line);
+}
+
+.faq article {
+  margin-top: 14px;
+}
+
+.detail h1 {
+  max-width: 980px;
+}
+
+.detail-band {
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 0;
+}
+
+.back {
+  display: inline-flex;
+  margin-bottom: 28px;
+  color: var(--green);
+  font-weight: 800;
+  text-decoration: none;
+}
+
 .checkout {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.7fr);
@@ -188,4 +222,3 @@ article p,
     box-shadow: 8px 8px 0 var(--gold);
   }
 }
-

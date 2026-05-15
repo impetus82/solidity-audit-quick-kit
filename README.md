@@ -4,6 +4,10 @@ A compact $10 pre-audit kit for Solidity developers and AI-assisted Web3 builder
 
 Live page: https://impetus82.github.io/solidity-audit-quick-kit/
 
+Checklist page: https://impetus82.github.io/solidity-audit-quick-kit/checklist.html
+
+Keywords: Solidity audit checklist, smart contract security checklist, Foundry test plan, Slither checklist, Web3 developer tools, AI-assisted Solidity review.
+
 ## What Is Inside
 
 - 30-minute pre-audit checklist
@@ -25,4 +29,3 @@ Honor-system checkout:
 ## Disclaimer
 
 This is not a professional security audit. It is a preparation kit for catching obvious risks and organizing review notes.
-

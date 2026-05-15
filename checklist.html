@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solidity Pre-Audit Checklist - Smart Contract Security</title>
+    <meta name="description" content="A Solidity pre-audit checklist covering access control, reentrancy, token handling, accounting, upgradeability, oracles, signatures, and tests.">
+    <link rel="canonical" href="https://impetus82.github.io/solidity-audit-quick-kit/checklist.html">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is this a smart contract audit?",
+            "acceptedAnswer": {"@type": "Answer", "text": "No. It is a pre-audit checklist and template pack for catching common issues before a formal review."}
+          },
+          {
+            "@type": "Question",
+            "name": "What tools does it mention?",
+            "acceptedAnswer": {"@type": "Answer", "text": "The kit includes Foundry commands and a Slither command checklist, plus prompts for contract review and test planning."}
+          },
+          {
+            "@type": "Question",
+            "name": "Who is it for?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Solidity developers, hackathon teams, AI-assisted Web3 builders, and small protocol teams preparing code for review."}
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <main class="detail">
+      <a class="back" href="index.html">Back to product</a>
+      <h1>Solidity Pre-Audit Checklist</h1>
+      <p class="lede">A practical checklist for smart contract teams before formal audit or public deployment.</p>
+      <section class="band detail-band">
+        <article><h2>Access Control</h2><p>Check privileged functions, role boundaries, ownership transfer, emergency functions, and admin events.</p></article>
+        <article><h2>External Calls</h2><p>Review state update order, reentrancy risk, low-level calls, trusted addresses, and checked return values.</p></article>
+        <article><h2>Accounting</h2><p>Test first-deposit paths, rounding direction, fee bounds, empty pools, and balance invariants.</p></article>
+        <article><h2>Oracles</h2><p>Validate stale price checks, decimal normalization, zero-price rejection, and manipulation assumptions.</p></article>
+        <article><h2>Upgradeability</h2><p>Review initializers, storage layout, implementation locking, upgrade authority, and migration notes.</p></article>
+        <article><h2>Testing</h2><p>Include happy path, revert, boundary, fuzz, invariant, and fork tests where relevant.</p></article>
+      </section>
+      <section class="checkout">
+        <div>
+          <p class="eyebrow">Full kit</p>
+          <h2>Download templates and prompts</h2>
+          <p>The ZIP includes the checklist, risk register, finding template, PR template, and AI review prompts.</p>
+        </div>
+        <div class="payment">
+          <p class="label">Price</p>
+          <p>$10 honor-system checkout</p>
+          <a class="button primary" href="product/solidity-audit-quick-kit.zip">Download ZIP</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
